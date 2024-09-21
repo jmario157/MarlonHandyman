@@ -1,0 +1,173 @@
+.about{
+    color: red;
+    align-items: center;
+    margin-top: 10em;
+    padding: 20px 7em;
+    text-align: center;
+}
+h1{
+    font-size: 2em;
+}
+.container-about{
+    display: flex;
+    justify-content: center;
+    padding: 0 3em 0 0;
+}
+.container-about-text{
+    margin-top: 50px;
+    margin-right: 220px;
+    align-items: center;
+}
+.text-about{
+    color: blue;
+    font-size: normal;
+}
+.title-text{
+    font-weight: bold;
+}
+.image-container {
+    width: 500px; /* Asegúrate de que el contenedor sea más grande que ambas imágenes */
+}
+.container-about-text, .image-container {
+    flex: 1; /* Hacer que ambos divs crezcan igualmente */
+    max-width: 700px; /* Establecer un ancho máximo si es necesario */
+    padding: 20px; /* Añadir padding para el contenido */
+    box-sizing: border-box; /* Incluir el padding en el ancho total */
+}
+.polygon {
+    width: 600px; /* O el tamaño que necesites */
+}
+
+
+@media (max-width: 1460px) {
+    .about {
+        margin-top: 5em;
+        padding: 20px 3em;
+    }
+
+    .container-about {
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+    }
+
+    .container-about-text {
+        margin-right: 0;
+    }
+
+    .image-container {
+        width: 700px;
+    }
+
+    .polygon {
+        width: 600px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .about {
+        margin-top: 5em;
+        padding: 20px 3em;
+    }
+
+    .container-about {
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+    }
+
+    .text-about{
+        font-size: small;
+    }
+
+    .container-about-text {
+        margin-right: 0;
+    }
+
+    .image-container {
+        width: 700px;
+    }
+
+    .polygon {
+        width: 500px;
+    }
+}
+/* Ajustes para pantallas medianas (tablets, pantallas entre 768px y 990px) */
+@media (max-width: 990px) {
+    .about {
+        margin-top: 5em;
+        padding: 20px 3em;
+    }
+
+    .container-about {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .container-about-text {
+        margin-right: 0;
+    }
+
+    .image-container {
+        width: 700px;
+    }
+
+    .polygon {
+        width: 600px;
+    }
+}
+
+/* Ajustes para pantallas pequeñas (móviles, pantallas menores de 768px) */
+@media (max-width: 768px) {
+    .about {
+        margin-top: 7em;
+        padding: 20px 2em;
+    }
+
+    .container-about {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .text-about{
+        font-size: small;
+    }
+    .image-container {
+        width: 500px;
+    }
+    
+    .polygon {
+        width: 400px;
+    }
+}
+
+/* Ajustes para pantallas extra pequeñas (móviles muy pequeños, menos de 480px) */
+@media (max-width: 480px) {
+    .about {
+        margin-top: 10em;
+        padding: 10px 1em;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .container-about {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .text-about{
+        font-size: small;
+    }
+
+    .image-container {
+        width: 400px;
+    }
+
+    .polygon {
+        width: 290px;
+    }
+}
