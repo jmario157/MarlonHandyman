@@ -7,7 +7,7 @@ const Contact = () => {
         event.preventDefault();
         const formData = new FormData(event.target);
 
-        formData.append("access_key", "0b19c5b8-fdb4-49b7-a6ab-be88b9d712aa");
+        formData.append("access_key", "3f347cla-7c96-4550-afee-ca3f6c17b758");
 
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
@@ -42,7 +42,7 @@ const Contact = () => {
                     <input type='email' className='field' placeholder='Enter your email' name='email' required />
                 </div>
                 <div className='input-box'>
-                    <label>Yoour Message</label>
+                    <label>Your Message</label>
                     <textarea name='message' className='field mess' placeholder='Enter your message' required></textarea>
                 </div>
                 <button type='submit'>Send Message</button>

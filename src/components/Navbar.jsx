@@ -10,7 +10,7 @@ const Navbar = () => {
     };
 
     const handleLinkClick = () => {
-        setIsOpen(false); // Cierra el menú al hacer clic en un enlace
+        setIsOpen(false);
     };
 
     return (

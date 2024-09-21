@@ -1,6 +1,6 @@
 .container {
     max-width: 124rem;
-    padding: 4rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .heading {
@@ -12,7 +12,7 @@
 
 .swiper_container {
     height: 52rem;
-    padding: 2rem 0;
+    padding: 2rem 0 0 0;
     position: relative;
 }
 

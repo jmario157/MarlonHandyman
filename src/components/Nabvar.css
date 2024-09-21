@@ -3,7 +3,7 @@
     width: 100%;
     height: 80px;
     padding: 0 100px;
-    background: rgb(242, 242, 242);
+    background: #3586ff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,6 +13,7 @@
 .logo {
     font-size: 32px;
     color: red;
+    text-shadow: 1px 1px 0 #fff;
     font-weight: bold;
 }
 
@@ -27,8 +28,9 @@
 
 .navbar ul li a {
     display: block;
-    color: blue;
+    color: white;
     font-size: 20px;
+    font-weight: 500;
     padding: 10px 25px;
     border-radius: 50px;
     transition: 0.2s;
@@ -38,6 +40,7 @@
 .navbar ul li a:hover{
     color: #fff;
     background: red;
+    transition: 0.5s;
 }
 
 .navbar ul li a.active {

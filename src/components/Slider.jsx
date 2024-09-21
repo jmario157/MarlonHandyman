@@ -26,7 +26,7 @@ import slide_images_16 from '../assets/img/18.jpeg'
 const Slider = () => {
     return (
         <div className="container" id='Projects'>
-            <h1 className="heading" >SOME PROJECTS</h1>
+            <h1 className="heading" >Some Projects</h1>
             <Swiper
                 effect={'coverflow'}
                 grabCursor={true}
@@ -100,15 +100,6 @@ const Slider = () => {
                     <img src={slide_images_16} alt="" />
                 </SwiperSlide>
 
-                <div className="slider-controler">
-                    {/* <div className="swiper-button-prev slider-arrow">
-                        <ion-icon name='arrow-back-outline'></ion-icon>
-                    </div>
-                    <div className="swiper-button-next slider-arrow">
-                        <ion-icon name='arrow-forward-outline'></ion-icon>
-                    </div> */}
-                    <div className="swiper-pagination"></div>
-                </div>
 
             </Swiper>
         </div>

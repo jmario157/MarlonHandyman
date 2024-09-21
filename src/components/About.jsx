@@ -5,7 +5,7 @@ import AboutImg from '../assets/img/AboutImg.png'
 const About = () => {
     return (
         <div className="about" id='About'>
-            <h1>ABOUT US</h1>
+            <h1>About Us</h1>
             <div className='container-about'>
                 <div className='container-about-text'>
                     <p className='text-about'>At Marlon Handyman Service Company, we specialize in transforming and enhancing your space, whether at home or in your business. 

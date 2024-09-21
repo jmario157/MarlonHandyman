@@ -4,6 +4,7 @@ import About from './components/About'
 import Slider from './components/Slider'
 import Contact from './components/Contact'
 import Princip from './components/Princip'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <About/>
         <Slider/>
         <Contact/>
+        <Footer/>
       </div>
     </div>
   )

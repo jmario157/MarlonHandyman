@@ -3,6 +3,7 @@
     align-items: center;
     padding: 20px 7em;
     text-align: center;
+    
 }
 h1{
     font-size: 2em;
@@ -20,6 +21,7 @@ h1{
 .text-about{
     color: blue;
     font-size: normal;
+    text-align: justify;
 }
 .title-text{
     font-weight: bold;
@@ -149,7 +151,7 @@ h1{
     }
 
     h1 {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 
     .container-about {
