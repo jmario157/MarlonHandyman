@@ -32,7 +32,7 @@ const Contact = () => {
     return (
         <section className='contact'>
             <form onSubmit={onSubmit}>
-                <h2 className='title'>Contact us</h2>
+                <h2 className='title' id='Contact'>Contact us</h2>
                 <div className='input-box'>
                     <label>Full name</label>
                     <input type='text' className='field' placeholder='Enter your name' name='name' required />
