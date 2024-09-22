@@ -3,11 +3,20 @@
     align-items: center;
     padding: 20px 7em;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
-h1{
+.title{
     font-size: 2em;
     text-shadow: 1px 1px 0 black;
+}
+.title::after{
+    content: '';
+    width: 80px;
+    height: 5px;
+    display: block;
+    margin: 10px auto 0;
+    background: blue;
+    border-radius: 5px;
 }
 .container-about{
     display: flex;
@@ -15,22 +24,21 @@ h1{
     padding: 0 3em 0 0;
 }
 .container-about-text{
-    margin-top: 50px;
-    margin-right: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3586ff;
-    border-radius: 20px;
 }
 .text-about{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size: normal;
-    text-align: justify;
-    text-shadow: 1px 1px 0 black;
+    color: blue;
+    font-size: x-large;
+    text-align: center;
+    border: solid blue;
+    box-shadow: 3px 3px 0 blue;
+    border-radius: 20px;
+    padding: 50px;
 }
 .title-text{
     font-weight: bold;

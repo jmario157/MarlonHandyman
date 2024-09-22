@@ -26,7 +26,7 @@ import slide_images_16 from '../assets/img/18.jpeg'
 const Slider = () => {
     return (
         <div className="container" id='Projects'>
-            <h1 className="heading" >Some Projects</h1>
+            <h1 className="heading title" >Some Projects</h1>
             <Swiper
                 effect={'coverflow'}
                 grabCursor={true}

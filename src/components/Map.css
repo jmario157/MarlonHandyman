@@ -1,0 +1,43 @@
+.containe-maps{
+    margin-bottom: 2rem;
+}
+.map-container {
+    height: 30vh; 
+    width: 100%;   
+    max-width: 400px; 
+    margin: 0 auto; 
+    border: 1px solid #ea2727;  
+    border-radius: 15px;      
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.directions-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.get-directions-btn {
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.get-directions-btn:hover {
+    background-color: #ff6b81;
+    transform: scale(1.1);
+}
+
+.get-directions-btn:active {
+    background-color: #ff4757;
+    transform: scale(1);
+}
+
+
+  
