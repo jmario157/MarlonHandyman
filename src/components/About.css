@@ -3,10 +3,11 @@
     align-items: center;
     padding: 20px 7em;
     text-align: center;
-    
+    margin-top: 2rem;
 }
 h1{
     font-size: 2em;
+    text-shadow: 1px 1px 0 black;
 }
 .container-about{
     display: flex;
@@ -17,11 +18,14 @@ h1{
     margin-top: 50px;
     margin-right: 220px;
     align-items: center;
+    background-color: #3586ff;
+    border-radius: 20px;
 }
 .text-about{
-    color: blue;
+    color: white;
     font-size: normal;
     text-align: justify;
+    text-shadow: 1px 1px 0 black;
 }
 .title-text{
     font-weight: bold;

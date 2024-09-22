@@ -8,6 +8,7 @@
 
 .title {
     color: red;
+    text-shadow: 1px 1px 0  black;
 }
 
 form {

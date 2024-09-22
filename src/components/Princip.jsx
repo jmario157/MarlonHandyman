@@ -1,6 +1,6 @@
 import React from 'react'
 import './Princip.css'
-import logo from '../assets/img/MARLON.png'
+import logo from '../assets/img/Banner.png'
 
 const Princip = () => {
     return (
