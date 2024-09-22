@@ -17,11 +17,16 @@ h1{
 .container-about-text{
     margin-top: 50px;
     margin-right: 220px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     background-color: #3586ff;
     border-radius: 20px;
 }
 .text-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-size: normal;
     text-align: justify;
